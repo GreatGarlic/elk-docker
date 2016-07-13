@@ -46,7 +46,7 @@ RUN echo deb http://packages.elasticsearch.org/elasticsearch/2.x/debian stable m
 RUN apt-get update -qq \
  && apt-get install -qqy \
 		elasticsearch=${ES_VERSION} \
-		openjdk-7-jdk \
+		openjdk-8-jdk \
  && apt-get clean
 
 
